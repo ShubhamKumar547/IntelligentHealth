@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Connect to MongoDB Atlas
-// const mongoURI = process.env.MONGO_URI || 'YOUR_MONGODB_ATLAS_URL_HERE';
+// const mongoURI = process.env.MONGO_URI 
 // connectDB(mongoURI);
 
 app.use(cors());
