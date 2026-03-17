@@ -2,16 +2,13 @@ const express = require("express");
 const router = express.Router();
 const authMiddleware = require('../middleware/authMiddleware');
 
-// Dummy data imports (replace with actual data sources as needed)
 const USERS = require("../Data/user");
 const TRENDS = require("../Data/wellness.json");
 const INTERNAL_METRICS = require("../Data/internalMetrics.json");
 const PERSONA_DETAILS = require("../Data/personaAnalysis");
 
 
-// /data/healthIds - Get mock health ID data for dropdown
 router.get("/healthIds", authMiddleware, (req, res) => {
-  // Example mock data, replace with actual data source if needed
   const healthIds = [
     { id: "HID-78945612", name: "Rohan Sharma" },
     { id: "HID-12345678", name: "Priya Singh" },
