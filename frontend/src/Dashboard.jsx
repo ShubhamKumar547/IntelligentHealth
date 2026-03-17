@@ -88,7 +88,7 @@ function Dashboard() {
                 }`}
                 onClick={() => setActiveTab("persona-details")}
               >
-                Persona Details
+                Health Journey
               </button>
             </div>
 
