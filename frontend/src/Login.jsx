@@ -79,7 +79,7 @@ function Login() {
             className="login-image"
             loading="lazy"
           />
-          <h1 className="elyx-header">elyx- Nural Nomads</h1>
+          <h1 className="elyx-header">Intelligent Health Monitoring Platform</h1>
           <blockquote className="elyx-quote">
             "Empowering your health journey with intelligence and care."
           </blockquote>
@@ -90,6 +90,9 @@ function Login() {
         <header className="login-header">
           <h2>Welcome Back</h2>
           <p className="login-subtitle">Sign in to your health dashboard</p>
+          <div className="login-notice">
+            ⚠️ Notice: First-time login may take up to 1 minute as the server might be waking up (hosted on Render). Please wait patiently.
+          </div>
         </header>
 
         <form onSubmit={handleSubmit} className="login-form" noValidate>
