@@ -91,9 +91,5 @@ npm run dev
 - `src/` — React components, pages, and assets
 - `public/` — Static files
 
-## Team
-
-Team Neural Nomad — Elyx Life Hackathon 2025
-
 
 ---
